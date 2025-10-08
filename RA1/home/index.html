@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+</head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #a3d5f7, #e0f7fa);
+            font-family: "Georgia", "Courier New", monospace;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline-block;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            background-color: rgb(126, 152, 168);
+            padding: 15px 40px;
+            border-radius: 30px;
+            font-size: 18px;
+            transition: 0.3s;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        nav a:hover {
+            background-color: rgb(100, 130, 150);
+            transform: scale(1.05);
+        }
+
+        #retorno {
+            margin-top: 40px;
+            color: #2c3e50;
+            font-size: 20px;
+        }
+    </style>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="../cliente/index.html">Clique aqui</a></li>
+        </ul>
+    </nav>
+    <div id="retorno">
+    </div>
+    
+    <script src="../js/home.js"></script>
+
+</body>
+</html>
