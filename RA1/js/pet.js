@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }    
 });
 
-document.getElementById("salvarPet").addEventListener("click", function(){
+document.getElementById("novoPet").addEventListener("click", function(){
     window.location.href = "novo_pet.html";
 });
 

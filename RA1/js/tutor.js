@@ -28,16 +28,17 @@ function carregaItensTutor(){
             html += "<tr>";
             html += "<td><a href='javascript:excluirTutores("+i+")'>Excluir</a></td>";
             html += "<td>"+lista[i].nome+"</td>";
-            html += "<td>"+lista[i].adress+"</td>";
+            html += "<td>"+lista[i].address+"</td>";
             html += "<td>"+lista[i].phone+"</td>";
             html += "<td>"+lista[i].email+"</td>";
+            html += "<td>"+lista[i].renda+"</td>";
             html += "</tr>";
         }
 
         html += "</table>";
         document.getElementById("listaTutor").innerHTML = html;
     }else{
-        var obj = {nome: "teste", adress: "teste", phone: "teste", email: "teste"};
+        var obj = {nome: "teste", address: "teste", phone: "teste", email: "teste"};
         var lista = [];
         lista.push(obj);
         localStorage.setItem("listaTutores",JSON.stringify(lista));

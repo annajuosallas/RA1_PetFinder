@@ -5,28 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo Tutor</title>
 </head>
+<style>
+    .form-group {
+        margin: 10px;
+    }
+</style>
 <body>
     <div>
         <p><h1>Novo Tutor</h1></p>
         <p>
-            <div>
+            <div class="form-group">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" name="nome">
             </div>
-            <div>
-                <label for="adress">Endereço</label>
-                <input type="text" id="adress" name="adress">
+            <div class="form-group">
+                <label for="address">Endereço</label>
+                <input type="text" id="address" name="address">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="telefone">Telefone</label>
                 <input type="number" id="phone" name="phone">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="email">E-mail</label>
-                <input type="number" id="email" name="email">
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="renda">Renda</label>
+                <input type="text" id="renda" name="renda">
             </div>
 
-            <div>
+            <div class="form-group">
                 <button type="button" id="enviarTutor">Enviar</button>
             </div>
         </p>

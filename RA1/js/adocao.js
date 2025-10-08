@@ -33,6 +33,7 @@ function carregaItensAdocao(){
             html += "<td>"+lista[i].phone+"</td>";
             html += "<td>"+lista[i].adress+"</td>";
             html += "<td>"+lista[i].email+"</td>";
+            html += "<td>"+lista[i].renda+"</td>";
             html += "</tr>";
         }
 
